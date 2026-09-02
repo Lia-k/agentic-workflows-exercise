@@ -17,15 +17,17 @@ network:
   allowed:
     - github.com
     - github.blog
+    - awesome-copilot.github.com
 ---
 
 # Update Mona's GitHub Info website
 
-Purpose: keep Mona's GitHub Info website current using Mona's notes and recent official GitHub announcements.
+Purpose: keep Mona's GitHub Info website current using Mona's notes and recent GitHub ecosystem updates.
 
 Read notes/mona-notes.md first. Use web-fetch to review:
 - GitHub Blog: https://github.blog/latest/
 - GitHub Changelog: https://github.blog/changelog/
+- Awesome Copilot workflows: https://awesome-copilot.github.com/workflows/
 
 Identify updates relevant to Mona's audience, then modify only site/content/github-info.md.
 
