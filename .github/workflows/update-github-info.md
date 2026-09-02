@@ -15,6 +15,7 @@ safe-outputs:
     fallback-as-issue: false
 tools:
   edit:
+  bash: ["curl"]
   web-fetch:
 network:
   allowed:
