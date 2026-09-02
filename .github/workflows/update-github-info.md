@@ -35,6 +35,8 @@ Read notes/mona-notes.md first. Review recent items from all three sources:
 
 Use any available web or network tool. If a helper named web-fetch is unavailable, use curl with redirects and read the downloaded HTML or RSS. A successful HTTP retrieval is valid web access; do not stop merely because a specific helper is absent. Read enough of each response to identify verifiable recent items and their direct source URLs.
 
+Keep source output compact: download responses to temporary files, then extract only titles, dates, and links for at most 12 recent items per source. Never print raw RSS or HTML with head, cat, or an equivalent command because individual lines can be extremely large.
+
 Identify updates relevant to Mona's audience, then modify only site/content/github-info.md.
 
 Keep the existing document style. Add concise, practical updates with clear headings, short summaries, publication dates when available, and direct source links. Do not invent facts or change unrelated website files.
